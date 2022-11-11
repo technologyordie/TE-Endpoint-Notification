@@ -3,7 +3,8 @@
 This macro polls the thousandeyes API and presents current webex quality
 based on the mos (mean opinion score) of a G.711 RTP test stream.
 
-Probably not the best test but this is also the very first version ;-)
+Probably not the best test based on cloud video architecture but this is
+also the very first version ;-)
 
 ### UI
 In the screenshot below you can see the message generate by this macro in
