@@ -22,8 +22,7 @@ todo:
 At this time there are is no agent to run on the video endpoints themselves.
 Because of this I suggest monitoring the health of meetings services with an
 enterprise agent at the same site and ideally the same VLAN as the video endpoint.
-
-When then endpoint polls the ThousandEyes test data point it will be getting details
+When the endpoint polls the ThousandEyes API for its test data point it will be getting details
 about a test ran from a similar perspective.
 
 ### Caveats
