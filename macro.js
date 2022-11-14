@@ -36,7 +36,7 @@ function formatOutput(testData){
       xapi.Config.UserInterface.CustomMessage.set(`Webex quality is decent. (mos:{mosAverage})`);
       break;
     case (mosAverage > 0 && mos <= 3.600):
-      xapi.Config.UserInterface.CustomMessage.set(`Webex quality is decent. (mos:${mosAverage})`);
+      xapi.Config.UserInterface.CustomMessage.set(`Webex quality is poor. (mos:${mosAverage})`);
       break;
     default:
       xapi.Config.UserInterface.CustomMessage.set(`Webex quality not available.`);
